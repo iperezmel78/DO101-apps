@@ -3,7 +3,7 @@ app = express();
 
 app.get('/', function (req, res) {
 
-  resp = 'This is version 1 of the application';
+  resp = 'This is version 2 of the application';
 
   res.send(resp);
 
